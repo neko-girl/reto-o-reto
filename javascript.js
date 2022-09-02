@@ -12,7 +12,8 @@ let test=[
             'Besa una nalga',
             'Lame un pie',
             'Besa a un jugador en una parte del cuerpo que empiece por la letra de tu su nombre',
-            'juega papel piedra o tijera con el jugador que quieras y El que pierda se quita una prenda'
+            'juega papel piedra o tijera con el jugador que quieras y El que pierda se quita una prenda, el ganador decida que prenda se va a quitar',
+            'siéntate en la cara del jugador que decida la botella'
         ]
 let originalLeght = Math.round(test.length*0.85)
 const update = (items) => test = items;
