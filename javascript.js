@@ -1,4 +1,4 @@
-let test=[
+let challenges = [
             'Besarle la nalga o el huevo al procurador de la derecha',
             'Acerca tus labios lo mas posible a alguien sin besarse',
             'Roba un beso a la persona mas linda',
@@ -13,10 +13,14 @@ let test=[
             'Lame un pie',
             'Besa a un jugador en una parte del cuerpo que empiece por la letra de tu su nombre',
             'juega papel piedra o tijera con el jugador que quieras y El que pierda se quita una prenda, el ganador decida que prenda se va a quitar',
-            'siéntate en la cara del jugador que decida la botella'
+            'siéntate en la cara del jugador que decida la botella',
+            'juega piedra papel o tijera y quien pierda es esclavo del otro',
+            'intercambia una prenda con alguien del sexo opuesto (no vale zarcillos, zapatos, cadenas, o cosas peque;as)',
+            'muestra una parte intima al grupo',
+            '
         ]
-let originalLeght = Math.round(test.length*0.85)
-const update = (items) => test = items;
+let originalLeght = Math.round(challenges.length*0.85)
+const update = (items) => challenges = items;
 
 function getRandomInt(max) {
     min = Math.ceil(0);
@@ -29,13 +33,13 @@ const enqueue = (item) => item? queue.push(item) : undefined;
 const dequeue = () => queue.shift();
 
 function Miau() {
-    let random = test[getRandomInt(test.length)]
-    enqueue(random)
-    update(test.filter(i => !queue.includes(i)));
+    let challenge = challenges[getRandomInt(challenges.length)]
+    enqueue(challenge)
+    update(challenges.filter(i => !queue.includes(i)));
     if (queue.length >= originalLeght) {
-        test.push(dequeue())
+        challenges.push(dequeue())
     }
-    return random;
+    return challenge;
 }
 
 function speak(text, len = 'es-Es') {
@@ -46,12 +50,12 @@ function speak(text, len = 'es-Es') {
 }
 
 function OnClick() {
-    let element = document.getElementById("reto");
-    reto=Miau()
+    let element = document.getElementById("challenge");
+    challenge=Miau()
     
-    speak(reto)
+    speak(challenge)
 
     element.innerText = reto
 }
 
-speak('Jugaremos Reto o Reto perrasssssss')
+speak('Jugaremos Reto o Reto')
