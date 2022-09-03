@@ -59,6 +59,7 @@ function speak(text, len = 'es-Es') {
     let msg = new SpeechSynthesisUtterance();
     msg.text = text
     msg.lang = len
+    msg.rate = 2
     window.speechSynthesis.speak(msg)
 }
 
