@@ -82,8 +82,11 @@ let challenges = [
             'ahorca a un jugador con las piernas',
             'mete la mano dentro de la ropade un jugador',
             'Actua como un gato por 3 turnos',
+            'confiesa a quien le tienes ganas',
+            
+            'Muestra tu ropa interior'
         ]
-let originalLeght = Math.round(challenges.length*0.85)
+let originalLeght = Math.round(challenges.length*0.90)
 const update = (items) => challenges = items;
 
 function getRandomInt(max) {
