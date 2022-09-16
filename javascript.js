@@ -84,7 +84,8 @@ let challenges = [
             'Actua como un gato por 3 turnos',
             'confiesa a quien le tienes ganas',
             
-            'Muestra tu ropa interior'
+            'Muestra tu ropa interior',
+            'Haz cosquillas a alguien'
         ]
 let originalLeght = Math.round(challenges.length*0.90)
 const update = (items) => challenges = items;
