@@ -11,7 +11,8 @@ let challenges = [
             'Haz un chupon',
             'Besa una nalga',
             'Lame un pie',
-            'Besa a un jugador en una parte del cuerpo que empiece por la letra de tu su nombre',
+            'Besa a un jugador en una parte del cuerpo que empiece por la letra de tu nombre',
+            'Besa a un jugador en una parte del cuerpo que empiece por la letra de su nombre',
             'juega papel piedra o tijera con el jugador que quieras y El que pierda se quita una prenda, el ganador decida que prenda se va a quitar',
             'sientate en la cara del jugador que decida la botella',
             'juega piedra papel o tijera y quien pierda es esclavo del otro',
@@ -58,7 +59,29 @@ let challenges = [
             'Demuestra como seducirias a alguien',
             'Tienes 5 segundos para decir los nombres de todos, dale un beso a los que no llegues a nombrar',
             'Todos los jugadores te tienen que dar un beso en algun lugar del cuerpo, no vale repetir',
-            'Los jugadores quee esten a tu izquierda y a tu derecha tienen que inclinarse y poner su boca en tu entrepierna (de forma sensual) y quedarse ahi 2 turnos'
+            'Los jugadores quee esten a tu izquierda y a tu derecha tienen que inclinarse y poner su boca en tu entrepierna (de forma sensual) y quedarse ahi 2 turnos',
+            
+            'Confesar un pensamiento privado hacia un jugador sin mencionarlo',
+            'Beso o cachetada a un jugador al azar',
+            'Beso de tres (2 jugadores, al azar)',
+            'Métele un Lepe o Cachetada al jugador de la derecha',
+            'Confiesa una vivencia embarazosa compartida, es decir, si te entraste a coñazo con alguno de los participantes. ',
+            'Huele cualquier parte del cuerpo de jugador al azar',
+            'Confiesa la paja más extraña que has tenido',
+            'Confiesa tu peor polvo',
+            'Te toca hacerle un masaje al jugador de la izquierda (parte del cuerpo al azar)',
+            
+            'señala a un jugador con los ojos cerrados y la parte que señales muérdela por 5 segundos',
+            'manosea la parte del cuerpo de un jugador que empiece con la primera letra de su nombre',
+            'haz un masaje al jugador de la derecha',
+            'Ponte en 24 con un jugador, permanecer así durante 5 turnos',
+            'Intercambia toda la ropa con alguien del sexo opuesto',
+            'muerde la lengua de un jugador',
+            'Agarra un jugador para cumplir alguno te tus fetiches',
+            'muestra una parte de tu cuerpo que te de inseguridad',
+            'ahorca a un jugador con las piernas',
+            'mete la mano dentro de la ropade un jugador',
+            'Actua como un gato por 3 turnos',
         ]
 let originalLeght = Math.round(challenges.length*0.85)
 const update = (items) => challenges = items;
